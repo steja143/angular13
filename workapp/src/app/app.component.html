@@ -1,0 +1,49 @@
+<h1 class="bg-primary">{{title}}</h1>
+
+<router-outlet></router-outlet>
+<button (click)="readMe()">save</button>
+<div *ngIf="showMsg; then thenblock ;else showelsemsg" [ngStyle]="{'color':clscolor}">this is first angular work in my
+  laptop</div>
+<ng-template #thenblock>tejaprasad</ng-template>
+<ng-template #showelsemsg>hdghgdgddhgfdhgddggdhgdhgddhg</ng-template>
+
+<br />
+<hr />
+<!---<div [ngSwitch]="showvalue">
+    <div *ngSwitchCase="1">tejaprasad</div>
+    <div *ngSwitchCase="2">prudhvi</div>
+    <div *ngSwitchCase="3">nani</div>
+    <div *ngSwitchCase="4">vikram</div>
+    <div *ngSwitchDefault>prasad</div>
+  </div>-->
+<hr />
+<div [ngSwitch]="showvalue">
+  <div *ngSwitchCase="'one'">tejaprasad</div>
+  <div *ngSwitchCase="'two'">prudhvi</div>
+  <div *ngSwitchCase="'three'">nani</div>
+  <div *ngSwitchCase="'four'">vikram</div>
+  <div *ngSwitchDefault>prasad</div>
+</div>
+<hr />
+<div *ngFor="let info of user;index as i;first as f;odd as o;even as e">
+  <span>{{info.id}}</span>
+  <span>{{info.name}}</span>
+  <span>{{info.age}}</span>
+  <span>{{i}}</span>
+  <span>{{f}}</span>
+  <span>{{o}}</span>
+  <span>{{e}}</span>
+ 
+</div>
+<hr />
+<div [ngStyle]="{'color':clasvalue,'background-color':rathod}">dat is not correct to display the data</div>
+<hr />
+<div [ngClass]="[one,clsname2]">dhdgdhgdgdggdg</div>
+<div [ngClass]="{'teja':true,'prasad':false}">tejaprasad</div>
+<input [placeholder]="Placeholder"/>
+<a [href]="datalist" [attr.updateLink]="updatedLink" [attr.data-Link]="updatedLink">google</a>
+<button (click)="shoeAlert()">click</button>
+<input (focus)="consoleLog()"/>
+<p>{{firstname}}</p>
+<input  (ngModel)="firstname"/>
+<app-tasks></app-tasks>

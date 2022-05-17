@@ -44,7 +44,6 @@ export class DemoComponent implements OnInit {
       let ref = document.getElementById('clear');
       ref?.click();
       this.formValue.reset();
-      this.getAllData();
     },
       err => {
         alert("kuch to galat hai teja")
