@@ -1,5 +1,4 @@
 <h1 class="bg-primary">{{title}}</h1>
-
 <router-outlet></router-outlet>
 <button (click)="readMe()">save</button>
 <div *ngIf="showMsg; then thenblock ;else showelsemsg" [ngStyle]="{'color':clscolor}">this is first angular work in my
@@ -44,5 +43,5 @@
 <a [href]="datalist" [attr.updateLink]="updatedLink" [attr.data-Link]="updatedLink">google</a>
 <button (click)="shoeAlert()">click</button>
 <input (focus)="consoleLog()"/>
-<p>{{ firstname }}</p>
+<app-todo></app-todo>
 <app-tasks></app-tasks>

@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'workapp';
+  data:any;
   showMsg=true;
   clscolor='blue';
   showvalue='one';
