@@ -9,11 +9,11 @@ import { demoData } from './demo.model';
   styleUrls: ['./demo.component.css']
 })
 export class DemoComponent implements OnInit {
-  formValue!: FormGroup
+  formValue!: FormGroup;
   demoModelObj: demoData = new demoData;
   alldemoData:any;
-  showAdd!:boolean
-  showbtn!:boolean
+  showAdd!:boolean;
+  showbtn!:boolean;
   constructor(private formBuilder: FormBuilder, private api: ApiService) { }
 
   ngOnInit(): void {
@@ -57,7 +57,7 @@ export class DemoComponent implements OnInit {
   }
   deleteResto(data:any){
     this.api.deletedemo(data.id).subscribe(res=>{
-      alert("record deleted suuccessfully");
+      confirm("record deleted suuccessfully");
       this.getAllData();
     })
   }

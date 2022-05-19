@@ -1,22 +1,5 @@
 {
-  "posts": [
-    {
-      "id": 3,
-      "name": "hdghdg",
-      "email": "prasadteja818@gmail.com",
-      "mobile": 8919108738,
-      "address": "ddjdhjdh",
-      "services": "dbdhdh"
-    },
-    {
-      "id": 4,
-      "name": "gfbg",
-      "email": "prasadteja818@gmail.com",
-      "mobile": 8919108738,
-      "address": "xdxssx",
-      "services": "sss"
-    }
-  ],
+  "posts": [],
   "signup": [
     {
       "name": "fnjfhjfh",
@@ -52,13 +35,28 @@
       "mobile": 9160437907,
       "password": "9160437907",
       "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "75757575757757",
+      "id": 6
     }
   ],
   "comments": [
     {
-      "id": 1,
-      "body": "some comment",
-      "podtid": 1
+      "name": "m.yogesh",
+      "email": "msyogi143@gmail.com",
+      "mobile": 9160437907,
+      "password": "9160437907",
+      "id": 1
+    },
+    { "name": "m.yogesh",
+      "email": "msyogi143@gmail.com",
+      "mobile": 9160437907,
+      "password": "9160437907",
+      "id": 2
     }
   ],
   "profile": {
