@@ -1,18 +1,11 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "05c36a88-88e0-4634-a6b8-68e0f4a1f03f"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "workapp": {
+    "e-cart": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:application": {
-          "strict": true
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -20,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/workapp",
+            "outputPath": "dist/e-cart",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "workapp:build:production"
+              "browserTarget": "e-cart:build:production"
             },
             "development": {
-              "browserTarget": "workapp:build:development"
+              "browserTarget": "e-cart:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "workapp:build"
+            "browserTarget": "e-cart:build"
           }
         },
         "test": {
@@ -105,5 +98,7 @@
       }
     }
   },
-  "defaultProject": "workapp"
+  "cli": {
+    "analytics": "240fab98-12a8-4f6b-853b-6d6546b1024e"
+  }
 }

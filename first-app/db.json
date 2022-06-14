@@ -1,5 +1,14 @@
 {
-  "posts": [],
+  "posts": [
+    {
+      "id": 1,
+      "name": "dddd",
+      "email": "prasadteja818@gmail.com",
+      "mobile": 8919108738,
+      "address": "ddddddddddddddd",
+      "services": "ddddddddd"
+    }
+  ],
   "signup": [
     {
       "name": "fnjfhjfh",
@@ -42,6 +51,41 @@
       "mobile": "",
       "password": "75757575757757",
       "id": 6
+    },
+    {
+      "name": "prasadteja818@gmail.com",
+      "email": "msyogi143@gmail.com",
+      "mobile": 8919108738,
+      "password": "777777",
+      "id": 7
+    },
+    {
+      "name": "hftf",
+      "email": "msdilli07@gmail.com",
+      "mobile": 868,
+      "password": "88888",
+      "id": 8
+    },
+    {
+      "name": "jjjjedhdhdh",
+      "email": "msdilli07@gmail.com",
+      "mobile": 8888757575,
+      "password": "9999",
+      "id": 9
+    },
+    {
+      "name": "nani",
+      "email": "msyogi143@gmail.com",
+      "mobile": 8919108738,
+      "password": "9618",
+      "id": 10
+    },
+    {
+      "name": "",
+      "email": "teja",
+      "mobile": "",
+      "password": "9618",
+      "id": 11
     }
   ],
   "comments": [
@@ -52,7 +96,8 @@
       "password": "9160437907",
       "id": 1
     },
-    { "name": "m.yogesh",
+    {
+      "name": "m.yogesh",
       "email": "msyogi143@gmail.com",
       "mobile": 9160437907,
       "password": "9160437907",

@@ -1,0 +1,5 @@
+<p>datalist works!</p>
+<h1>{{data}}</h1>
+<input type="text" [(ngModel)]="data"/>
+<input type="text" #box/>
+<button (click)="updateDataEvent.emit(box.value)">data</button>

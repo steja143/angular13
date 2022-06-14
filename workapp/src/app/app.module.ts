@@ -3,25 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
-import { HighlightPipe } from './highlight.pipe';
-import {TodoModule} from './todo/todo.module';
-import { TasksComponent } from './tasks/tasks.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
- 
+import { ChildComponent } from './child/child.component';
+import { UserlistComponent } from './userlist/userlist.component';
+import { DatalistComponent } from './datalist/datalist.component';
+import { DemoComponent } from './demo/demo.component';
+import { RathodModule} from './rathod/rathod.module'
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    HighlightPipe,
-    TasksComponent
+    ChildComponent,
+    UserlistComponent,
+    DatalistComponent,
+    DemoComponent
+    
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
-    TodoModule,
-    FormsModule,
-    BrowserAnimationsModule
+    RathodModule
   ],
   providers: [],
   bootstrap: [AppComponent]
